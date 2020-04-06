@@ -1,0 +1,6 @@
+## Partches applied
+
+1. My custom rice
+2. scroolback
+3. clipboard
+4. alpha (Transparency)

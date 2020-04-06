@@ -1,0 +1,225 @@
+!/bin/bash: -----------------------------------: command n: 102
+
+
+xft.dpi: 			106
+Xft.antialias: 			true
+Xft.hinting: 			true
+Xft.rgba: 			rgb
+Xft.autohint: 			false
+Xft.hintstyle: 			hintfull
+Xft.lcdfilter: 			lcddefault
+xcursor.theme:			Vanilla-DMZ
+xscreensaver.fade:   		false
+xscreensaver.unfade: 		false
+!! ===== urxvt =====	
+URxvt.scrollBar: 		off
+URxvt.font:			xft:Source Code Pro:size=9
+URxvt.depth:			32
+URxvt.letterSpace: 		-1
+URxvt*iskipBuiltinGlyphs:   	true
+URxvt.geometry:			80x28
+URxvt.cursorUnderline:		true
+URxvt.internalBorder:		0
+!URxvt.color12:			rgb:5c/5c/ff
+URxvt.perl-ext-common: 		default,matcher
+URxvt*scrollWithBuffer: 	true
+URxvt.cursorBlink:		true
+
+
+!! Color Themes
+
+
+!!  BY EmpressNoodle
+*background:			[70]#000
+*foreground:			#FDFDFD
+*cursorColor:			#C574DD
+*color0:			#282A36
+*color1:			#F37F97
+*color2:			#5ADECD
+*color3:			#F2A272
+*color4:			#8897F4
+*color5:			#C574DD
+*color6:			#79E6F3
+*color7:			#FDFDFD
+!*color8:			#414458
+*color8:			#DC7E58
+*color9:			#FF4971
+*color10:			#18E3C8
+*color11:			#FF8037
+*color12:			#556FFF
+*color13:			#B043D1
+*color14:			#3FDCEE
+*color15:			#BEBEC1
+
+
+!!  My Custom rice
+!URxvt.background:		[55]#0c0d12
+!URxvt.colorBD:			#D0D0D0
+!URxvt.colorIT:			#D0D0D0
+!URxvt.colorUL:			#D0D0D0
+!*.background:			#0c0d12
+!!*foreground:			#38aef6
+!*foreground:			#8AC0E1
+!!*foreground:			#c13155
+!*cursorColor:			#fff
+!*color0:			#282A36
+!*color1:			#F37F97
+!*color2:			#5ADECD
+!*color3:			#F2A272
+!*color4:			#8897F4
+!*color5:			#C574DD
+!*color6:			#79E6F3
+!*color7:			#7f26ba
+!*color8:			#414458
+!*color9:			#FF4971
+!!*color10:			#18E3C8
+!!*color10:			#57956c
+!*color10:			#c13155
+!*color11:			#FF8037
+!*color12:			#556FFF
+!!*color13:			#B043D1
+!*color13:			#c13155
+!*color14:			#3FDCEE
+!*color15:			#49b6c5
+
+
+
+!!! BY Bit9tream
+!URxvt.background:  		[90]#0c0d12
+!*.background:			#0c0d12
+!URxvt.foreground:		#bb98df
+!URxvt.cursorColor: 		#ffffff
+!URxvt*cursorBlink: 		true
+!
+!!(252)
+!URxvt.colorBD:     		#D0D0D0
+!URxvt.colorIT:     		#D0D0D0
+!URxvt.colorUL:     		#D0D0D0
+!
+!*.foreground:	   		#39b9ea
+!URxvt.color0:	   		#151515
+!URxvt.color8:     	 	#767676
+!
+!!WHT (252, 231)
+!URxvt.color7:   	   	#D0D0D0
+!URxvt.color15:     		#FFFFFF
+!
+!!RED
+!URxvt.color9:			#f44f4f
+!URxvt.color1:   	   	#E16B6A
+!!URxvt.color9:      		#FFA3A3
+!
+!!GRN
+!URxvt.color2:   	   	#48A16F
+!URxvt.color10:     		#266d52
+!URxvt.color10:			#60ddae
+!URxvt.color10:			#096743
+!
+!!YEL
+!URxvt.color3:		      	#C0824F
+!URxvt.color11:     		#F7B985
+!
+!!BLU
+!URxvt.color4:     	 	#7B91C6
+!URxvt.color12:     		#B0C7FC
+!
+!!MAG
+!URxvt.color5:      		#DF679A
+!URxvt.color13:    	 	#FF9FD4
+!
+!!CYN
+!URxvt.color6:  		#4E9E9E
+!URxvt.color14:     		#85D5D4
+
+!!! Candy Land Crush Crushed
+!URxvt.background:		[80]#282A2E
+!URxvt.cursorColor:              #ffffff
+!URxvt*cursorBlink:              true
+!
+!!(252)
+!URxvt.colorBD:                  #D0D0D0
+!!URxvt.colorIT:                  #D0D0D0
+!URxvt.colorUL:                  #D0D0D0
+!*.foreground:			#be6bc3
+!
+!URxvt.color0:                   #151515
+!URxvt.color8:                   #767676
+!  
+!!WHT (252, 231)
+!URxvt.color7:                   #D0D0D0
+!URxvt.color15:                  #FFFFFF
+!
+!!RED
+!!URxvt.color9:                   #f44f4f
+!!URxvt.color1:                   #E16B6A
+!URxvt.color1:			#CA1010
+!!URxvt.color1:			#b763ff
+!!URxvt.color9:			#b763ff
+!URxvt.color9:			#6527b6
+!!URxvt.color9:                  #FFA3A3
+!
+!!GRN
+!URxvt.color2:                   #c72275
+!!URxvt.color2:			#4122c7
+!URxvt.color10:                  #266d52
+!!URxvt.color10:                  #60ddae
+!!URxvt.color10:                  #096743
+! 
+!!YEL
+!URxvt.color3:                   #C0824F
+!URxvt.color11:			#3D3D5D
+!!URxvt.color11:                  #F7B985
+!
+!!BLU
+!URxvt.color4:			#1b54a3
+!URxvt.color12:                  #B0C7FC
+!
+!!MAG
+!URxvt.color5:                   #DF679A
+!!URxvt.color13:			#CA1010
+!URxvt.color13:                  #FF9FD4
+! 
+!CYN
+!URxvt.color6:			#5053ec
+!URxvt.color14:                  #85D5D4
+ 
+
+
+!! By Mantarimay
+!*.foreground:   		#ffffff
+!*.background:   		[60]#232729
+!*.cursorColor:  		#ffffff
+!
+! black
+!*.color0:       		#1f1b2a
+!*.color8:       		#F68A6D
+!
+!! pink
+!*.color1:       		#F69FA5
+!*.color9:       		#F69FA5
+!
+!! blue
+!*.color2:       		#4FBFD7
+!*.color10:      		#4FBFD7
+!
+!! yellow
+!*.color3:       		#F9EEAC
+!*.color11:      		#F9EEAC
+!
+!! yellowtua
+!*.color4:       		#F9B882
+!*.color12:      		#F9B882
+!
+!! biru
+!*.color5:       		#B8E1DD
+!*.color13:      		#B8E1DD
+!
+!! coklatenom
+!*.color6:       		#E5D3AF
+!*.color14:      		#E5D3AF
+!
+!! white
+!*.color7:       		#ffffff
+!*.color15: 			#ffffff
+
+

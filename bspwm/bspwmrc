@@ -1,0 +1,60 @@
+#! /bin/sh
+
+sxhkd &
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+bspc config border_width         1
+bspc config window_gap          12
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+#bspc rule -a Chromium desktop='^4'
+#bspc rule -a mplayer2 state=floating
+#bspc rule -a Kupfer.py focus=on
+#bspc rule -a Screenkey manage=off
+
+#### Custom configuration
+
+## Wallpaper 		## Plz change the directory, is you store you wallpapers in some other directory
+feh --bg-scale ~/Documents/wallpapers/venom-2.png &
+
+## Xresources
+xrdb ~/.Xresources ;
+
+## Compton
+compton -f & 
+
+## Polybar
+~/.config/scripts/polybar.sh &
+
+## Dunst
+~/.config/scripts/dunst.sh & 
+
+## Tunninf
+sudo ~/.config/scripts/tuning.sh
+
+
+## Xrandr	Plx add your xrandr config here
+xrandr --output LVDS1 --primary --mode 1366x768 --pos 0x0 --rotate normal --dpi 125.37 --output DP1 --off --output DP2 --off --output DP3 --off --output HDMI1 --off --output HDMI2 --off --output HDMI3 --off --output VGA1 -mode 1366x768 --pos 0x0 --rotate normal --output VIRTUAL1 --off --dpi 125.37 
+
+## Governer
+sudo cpupower frequency-set -g powersave
+
+## Firefox
+bspc rule -a firefox desktop='^3' 
+
+## Chromium
+bspc rule -a Chromium desktop='^4'
+
+## Waterfox
+bspc rule -a Waterfox-classic desktop '^4'
+
+## Discord
+bspc rule -a discord  desktop='^10' 
+
+## Virtualbox
+#virtualbox &
+bspc rule -a VirtualBox Manager desktop='^4'

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## This scritp is meant for debian like distro, basically distro which uses apt as their package manager.
+
+dirx= pwd ; ./requirments ; git clone https://github.com/polybar/polybar.git polybar_git ; cd polybar_git ; ./build.sh ; echo " Polybar is installed and upto date. 
+$(polybar -v) "
+
+echo " You will need to rename either config.mine_default or config_jaggr1 , because polybar will use any configuration file with the name config, the config_jaggr1 is the default configuartion file from Jaggr the creator of polybar , but if you use decide to use mine config file then you will have to use the scritps that i made and are located in scritps directory of the main git repository."
+
