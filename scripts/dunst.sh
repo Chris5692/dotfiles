@@ -1,1 +1,1 @@
-sudo killall dunst ; dunst ;
+killall dunst ; dunst ;

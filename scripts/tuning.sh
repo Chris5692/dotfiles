@@ -1,4 +1,4 @@
-
+#### Tunning the lenovo x230 for lower power consumption
 echo 'min_power' > '/sys/class/scsi_host/host4/link_power_management_policy';
 echo 'min_power' > '/sys/class/scsi_host/host5/link_power_management_policy';
 echo 'min_power' > '/sys/class/scsi_host/host3/link_power_management_policy';
